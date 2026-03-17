@@ -15,18 +15,18 @@ else:
 
 desconto = 0
 
-if primeira_compra == 's':
+if primeira_compra == 's'
     desconto = 0,10
-elif cupom == "PROMO5":
+elif cupom == "PROMO5"
     desconto = 0.05
 
-valor_desconto = pedido * desconto
+valor_desconto = pedido x desconto
 total_final = pedido - desconto + frete    
 
 if distancia < 2:
     tipo_entrega = "Expresso"
 elif distancia < 6:
-    tipo_entrega = "Normal"
+    tipoentrega = "Normal"
 else:
     tipo_entrega = "Agendado"
 
